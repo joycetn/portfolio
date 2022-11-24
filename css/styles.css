@@ -1,0 +1,57 @@
+@import url("imports.css");
+/*CSS Stylesheet for Joycelyn Tng's Portfolio
+- everything must be alphabetical! or u will go crazy */
+
+/*HTML TAG SECTION ---*/
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+p {
+
+}
+
+/*CLASSES SECTION ---*/
+.image-link {
+/* image as link    */
+}
+
+.label {
+/* label for text input field */
+}
+
+.link {
+/* just any old link */
+}
+
+.main-nav {
+/* main navigation    */
+}
+
+.radio-button {
+/* radio button styling    */
+}
+
+.submit {
+ /* submit button for forms */
+}
+
+.text-input {
+/* text input field */
+}
+/*ID SECTION --- */
+# {
+
+}
