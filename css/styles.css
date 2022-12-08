@@ -3,29 +3,87 @@
 - everything must be alphabetical! or u will go crazy */
 
 /*HTML TAG SECTION ---*/
-h1 {
+a {
+font-family: 'Inconsolata', monospace;
+color: #2c3a63
+}
 
+a:hover {
+font-family: 'Inconsolata', monospace;
+font-style: italic;
+color: #skyblue;
+}
+
+footer {
+font-family: 'Inconsolata', monospace;
+color: #2c3a63;
+
+}
+
+form {
+   font-family: 'Inconsolata', monospace;
+}
+
+html {
+   color: teal;
+   background-color: #f5ffce;
+   margin: 1em;
+}
+
+h1 {
+font-family: 'Inconsolata', monospace;
+font-weight: 600;
+font-size: 4em;
 }
 
 h2 {
-
+font-family: 'Inconsolata', monospace;
+font-size: 3em;
 }
 
 h3 {
-
+font-family: 'Inconsolata', monospace;
 }
 
 h4 {
+font-family: 'Inconsolata', monospace;
+}
 
+nav ul{
+   list-style-type: none;
+}
+
+nav li {
+   display: inline;
 }
 
 p {
-
+font-family: 'Karla', sans-serif;
 }
 
+
 /*CLASSES SECTION ---*/
+
+.flexing {
+/* flexbox/container for work on the home page */
+display: flex;
+align-items: baseline;
+align-content: stretch;
+}
+
+.flexing div {
+   padding: 1em;
+   margin: 1em;
+   width: 25%;
+   background-color: white;
+}
+
 .image-link {
 /* image as link    */
+}
+
+.intro {
+/* introduction text on home page */
 }
 
 .label {
@@ -38,6 +96,14 @@ p {
 
 .main-nav {
 /* main navigation    */
+}
+
+.my-work {
+/* any of the project links displayed on the home page */
+}
+
+.project-overview {
+/* team/roles/tools */
 }
 
 .radio-button {

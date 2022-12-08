@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Karla', sans-serif; */
+
+/*
+
+colors:
+a, footer: #2c3a63
+html: teal / bg: #f5ffce
+
+*/
+
+
+.testingcolors {
+   display: flex;
+
+}
+
+.testingcolors div {
+   width: 200px;
+   height: 200px;
+   margin: 20px;
+   text-align: center;
+}
+
+.theme-alt {
+  color: #f5ffce;
+  background-color: teal;
+}
+
+.theme {
+  color: teal;
+  background-color: #f5ffce;
+}
+
+/* other combos i like: */
+.theme2 {
+  color: teal;
+  background-color: #e8feee;
+}
+
+.theme3 {
+  color: teal;
+  background-color: #fefbdc;
+}
+
+.theme4 {
+  color: skyblue;
+  background-color: #14212f;
+}
+
+.theme5 {
+  color: skyblue;
+  background-color: #2c3a63;
+}

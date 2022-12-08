@@ -14,12 +14,14 @@
 
 
       <nav>
-        <a href="#interactive_elements">Interactive Elements</a>
-        <a href="#text_elements">Text Elements</a>
-        <a href="#combined_elements">Combined Elements</a>
-        <a href="#citations">Citations</a>
+      <ul>
+        <li><a href="#interactive_elements">Interactive Elements</a></li>
+        <li><a href="#text_elements">Text Elements</a></li>
+        <li><a href="#combined_elements">Combined Elements</a></li>
+        <li><a href="#citations">Citations</a></li>
+     </ul>
       </nav>
-      
+
    </header>
       <!--
       EXAMPLE STYLING:
@@ -53,7 +55,7 @@
              <code>&lt;a href="#" class="link"&gt;in text link&lt;/a&gt;</code>
 
            <h4>Rendered element:</h4>
-             <a class="button-nav" href="#">in text link</a>
+             <a href="#">in text link</a>
       </section>
 
 
@@ -63,13 +65,17 @@
         <h3>Navigation Link</h3>
 
          <h4>CSS selector:</h4>
-            <p>.nav-link</p>
+            <p>nav, nav ul</p>
 
          <h4>Sample code:</h4>
             <code>&lt;a href="#" class="nav-link"&gt;Default Button&lt;/a&gt;</code>
 
          <h4>Rendered element:</h4>
-            <a class="nav-link" href="#">Nav Link</a>
+            <nav>
+               <ul>
+                  <li><a class="nav-link" href="#">Nav Link</a></li>
+               </ul>
+            </nav>
 
       </section>
 
