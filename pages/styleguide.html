@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Joyce's Portfolio Style Guide</title>
    <link rel="stylesheet" href="../css/styles.css">
   </head>
@@ -15,10 +16,11 @@
 
       <nav>
       <ul>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="#interactive_elements">Interactive Elements</a></li>
         <li><a href="#text_elements">Text Elements</a></li>
         <li><a href="#combined_elements">Combined Elements</a></li>
-        <li><a href="#citations">Citations</a></li>
+        <li><a href="citations.html">Citations</a></li>
      </ul>
       </nav>
 
@@ -81,55 +83,15 @@
 
 
       <section class="element">
-        <h3>Submit/Reset Buttons</h3>
-         <h4>CSS selector:</h4>
-            <p>.submit</p>
-
-         <h4>Sample code:</h4>
-            <code>insert code here</code>
-
-         <h4>Rendered element:</h4>
-            <!-- insert code here -->
-
-      </section>
-
-
-      <section class="element">
-        <h3>Text Input Field with Label</h3>
-            <h4>CSS selector:</h4>
-               <p>.text-input, .label</p>
-
-            <h4>Sample code:</h4>
-               <code>insert code here</code>
-
-            <h4>Rendered element:</h4>
-               <!-- insert code here -->
-      </section>
-
-
-      <section class="element">
-        <h3>Radio Button with Label</h3>
-           <h4>CSS selector:</h4>
-              <p>.radio-button, .label</p>
-
-           <h4>Sample code:</h4>
-              <code>insert code here</code>
-
-           <h4>Rendered element:</h4>
-              <!-- insert code here -->
-      </section>
-
-
-      <section class="element">
         <h3>Image as a Link</h3>
            <h4>CSS selector:</h4>
-              <p>.image-link</p>
+              <p>a:hover img</p>
 
            <h4>Sample code:</h4>
-              <code>insert code here</code>
+              <code>           &lt;a href=&quot;pages/nodus.html&quot;&gt; &lt;img src=&quot;../images/nodusmockup.png&quot; alt=&quot;Mockup image showing nodus logo and watch and app interface&quot; &lt;/a&gt;</code>
 
            <h4>Rendered element:</h4>
-              <!-- insert code here -->
+           <a href="pages/nodus.html"> <img src="../images/nodusmockup.png" alt="Mockup image showing nodus logo and watch and app interface"> </a>
       </section>
 
 
@@ -148,10 +110,18 @@
               <p>h1, h2, h3, h4</p>
 
            <h4>Sample code:</h4>
-              <code>insert code here</code>
+              <code>
+                 &lt;h1&gt;This is heading 1.&lt;/h1&gt;
+                  &lt;h2&gt;This is heading 2.&lt;/h2&gt;
+                  &lt;h3&gt;This is heading 3.&lt;/h3&gt;
+                  &lt;h4&gt;This is heading 4.&lt;/h4&gt;
+              </code>
 
            <h4>Rendered element:</h4>
-              <!-- insert code here -->
+           <h1>This is heading 1.</h1>
+           <h2>This is heading 2.</h2>
+           <h3>This is heading 3.</h3>
+           <h4>This is heading 4.</h4>
       </section>
 
       <section class="element">
@@ -160,22 +130,10 @@
               <p>p</p>
 
            <h4>Sample code:</h4>
-              <code>insert code here</code>
+              <code>&lt;p&gt;P is for Pluto.&lt;/p&gt;</code>
 
            <h4>Rendered element:</h4>
-              <!-- insert code here -->
-      </section>
-
-      <section class="element">
-        <h3>Numbered Lists</h3>
-           <h4>CSS selector:</h4>
-              <p>ol</p>
-
-           <h4>Sample code:</h4>
-              <code>insert code here</code>
-
-           <h4>Rendered element:</h4>
-              <!-- insert code here -->
+              <p>P is for Pluto.</p>
       </section>
 
       <section class="element">
@@ -184,11 +142,16 @@
               <p>ul</p>
 
            <h4>Sample code:</h4>
-              <code>insert code here</code>
+              <code>              &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;pages/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;</code>
 
            <h4>Rendered element:</h4>
-              <!-- insert code here -->
-      </section>
+           <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pages/about.html">About</a></li>
+              <!-- <li><a href="pages/contact.html">Contact</a></li> -->
+           </ul>
+        </section>
 
     </section>
     <!-- // TEXT ELEMENTS SECTION -->
@@ -202,51 +165,94 @@
       <section class="element">
         <h3>Main Navigation</h3>
             <h4>CSS selector:</h4>
-               <p>.main-nav</p>
+               <p>nav ul, nav li</p>
 
             <h4>Rendered element:</h4>
-               <!-- insert code here -->
-      </section>
+               <p>Look at the top right</p>
+               <nav>
+                  <ul class="right">
+                   <li><a href="../index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="citations.html">Citations</a></li>
+                 </ul>
+              </nav>
+        </section>
 
       <section class="element">
-        <h3>another combined element here</h3>
+        <h3>Project Link</h3>
            <h4>CSS selector:</h4>
-              <p>.insertselector</p>
+              <p>.my-work</p>
            <h4>Rendered element:</h4>
-
+           <div class="flexing">
+              <div class="my-work">
+                <a href="pages/nodus.html"> <img src="../images/nodusmockup.png" alt="Mockup image showing nodus logo and watch and app interface">
+                   <h3>nodus</h3><p>A medical device for PTSD patients.</p>
+                </a>
+             </div>
+          </div>
       </section>
 
       <section class="element">
-         <h3>another combined element here</h3>
-            <h4>CSS selector:</h4>
-               <p>.insertselector</p>
-            <h4>Rendered element:</h4>
+        <h3>Project Overview</h3>
+           <h4>CSS selector:</h4>
+              <p>.project-overview</p>
+           <h4>Rendered element:</h4>
+           <div class="project-overview">
+              <p>
+                <strong>Team:</strong>
+                 Individual Project
+              </p>
+             <p>
+                <strong>Role:</strong>
+                Art Direction, Content Research, Branding, Print Design
+             </p>
+             <p>
+                <strong>Tools:</strong>
+                 Adobe Photoshop, Adobe InDesign
+              </p>
+           </div>
       </section>
 
       <section class="element">
-         <h3>another combined element here</h3>
+         <h3>Rainbow Colors :)</h3>
             <h4>CSS selector:</h4>
-               <p>.insertselector</p>
+               <p>.testingcolors</p>
             <h4>Rendered element:</h4>
+            <!-- RAINBOWWWW -->
+             <div class="testingcolors">
+                <div class="theme"></div>
+                <div class="theme1"></div>
+                <div class="theme2"></div>
+                <div class="theme3"></div>
+                <div class="theme4"></div>
+                <div class="theme5"></div>
+             </div>
+      </section>
+
+      <section class="element">
+         <h3>Pop-Up Emoji</h3>
+            <h4>CSS selector:</h4>
+               <p>.hide, .show:hover + hide</p>
+            <h4>Rendered element:</h4>
+            <a href="pages/about.html" class="show">Hello there!</a> <div class="hide"><p>👋👋👋</p></div>
        </section>
+
+       <section class="element">
+          <h3>Shrinking Image</h3>
+             <h4>CSS selector:</h4>
+                <p>.animate</p>
+             <h4>Rendered element:</h4>
+             <div class="animate">
+               <img src="../images/me.png" alt="Image of a tiny me smiling with the Alberta Dinosaur Park at sunset in the background!">
+            </div>
+        </section>
 
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
 
-
-
-
-
+    <footer>
+       <hr>
+       Made in 2022 by yours truly!
+    </footer>
   </body>
-
-  <footer>
-     <section id="citations">
-      <h2>Citations</h2>
-      <ul>
-        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
-        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
-      </ul>
-
-     </section>
-  </footer>
 </html>

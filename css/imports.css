@@ -11,31 +11,32 @@ html: teal / bg: #f5ffce
 
 */
 
+/* <!-- TESTING COLOUR COMBOS HEREEE -->
+<div class="testingcolors">
+     <div class="theme">
+        <h2>test text here!</h2>
+     </div>
 
-.testingcolors {
-   display: flex;
+     <div class="theme2">
+        <h2>test text here!</h2>
+     </div>
 
-}
+     <div class="theme3">
+        <h2>test text here!</h2>
+     </div>
 
-.testingcolors div {
-   width: 200px;
-   height: 200px;
-   margin: 20px;
-   text-align: center;
-}
+     <div class="theme4">
+        <h2>test text here!</h2>
+     </div>
 
-.theme-alt {
-  color: #f5ffce;
-  background-color: teal;
-}
+     <div class="theme5">
+        <h2>test text here!</h2>
+     </div>
+</div> */
 
-.theme {
-  color: teal;
-  background-color: #f5ffce;
-}
 
 /* other combos i like: */
-.theme2 {
+/* .theme2 {
   color: teal;
   background-color: #e8feee;
 }
@@ -53,4 +54,60 @@ html: teal / bg: #f5ffce
 .theme5 {
   color: skyblue;
   background-color: #2c3a63;
+} */
+
+.testingcolors {
+   display: flex;
+   width: 100%;
+   align-items: baseline;
+   float: left;
+   flex-wrap: wrap;
+
+}
+
+.testingcolors div {
+   width: 20px;
+   height: 10px;
+   margin: 1em;
+   text-align: center;
+}
+
+.theme-alt {
+   color: #f5ffce;
+   background-color: teal;
+}
+
+.flextitle {
+    flex-basis:20%;
+    padding-right: 1em;
+}
+
+.theme {
+   color: teal;
+   background-color: red;
+}
+
+.theme1 {
+  color: teal;
+  background-color: orange;
+}
+
+.theme2 {
+  color: teal;
+  background-color: gold;
+}
+
+.theme3 {
+  color: teal;
+  background-color: forestgreen;
+}
+
+.theme4 {
+  color: skyblue;
+  background-color: cornflowerblue;
+}
+
+.theme5 {
+  color: skyblue;
+  background-color: mediumpurple;
 }
