@@ -10,7 +10,7 @@
 @media only screen and (min-width: 600px) {
 
    body {
-      width: 70%;
+      width: 100%;
    }
 
    h1 {
@@ -245,9 +245,10 @@ sub {
 
 
 .my-work {
-   padding: 1em;
-   margin: 1em;
-   width: 100%;
+   align-content: center;
+   padding-top: .5em;
+   border-top: solid black 1px;
+   width: 70%;
    background-color: white;}
 
 .project-overview {
