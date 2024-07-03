@@ -5,7 +5,7 @@
 - everything must be alphabetical! or u will go crazy */
 
 
-/* VIEWPORT BREAKPOINTS */
+/* --VIEWPORT BREAKPOINTS--*/
 /* desktop */
 @media only screen and (min-width: 600px) {
 
@@ -31,29 +31,6 @@
       width: 100%;
       color: black;
    }
-
-   .animate {
-   font-size: 0px;
-   }
-
-   .animate img {
-      width: 10%;
-   }
-
-   .animate:hover {
-      width: 100%;
-      transition: 1.5s;
-      font-size: 1em;
-   }
-
-   .animate img:hover {
-      width: 100%;
-      transition: 1.5s;
-   }
-
-   .right {
-      position: fixed;
-   }
 }
 
 /* phone/tablet */
@@ -74,201 +51,16 @@
       list-style-type: none;
    }
 
-
-   .animate {
-      width: 100%;
-   }
-
-   .right {
-      position: relative;
-      align-content: center;
-      text-align: center;
-   }
 }
 
-/* animation: */
-@keyframes wave {
-   0% {
-     transform: rotate(-25deg)
-   }
-   100% {
-     transform: rotate(25deg)
-   }
-}
 
+
+/*--BARE BONES STYLING (just enough to make site run)--*/
 /*HTML TAG SECTION ---*/
-a {
-   font-family: 'Inconsolata', monospace;
-   color: #2c3a63
-}
-
-a:hover {
-   font-family: 'Inconsolata', monospace;
-   text-decoration: underline;
-   text-decoration-style: dashed;
-   color: black;
-}
-
-a:hover img {
-   filter:contrast(69%);
-}
-
-a img {
-   width: 100%;
-}
-
-code {
-   padding: .35em;
-   width: 100%;
-   background-color: lightgrey;
-   color: teal;
-}
-
-caption {
-   font-family: 'Inconsolata', monospace;
-}
-
-footer {
-   font-family: 'Inconsolata', monospace;
-   color: #2c3a63;
-}
-
-form {
-   font-family: 'Inconsolata', monospace;
-}
-
-html {
-   color: teal;
-   background-color: #f5ffce;
-   margin: 1em;
-   padding: 1em;
-}
-
-h1 {
-   font-family: 'Inconsolata', monospace;
-   font-weight: 600;
-   font-size: 4em;
-}
-
-h2 {
-   font-family: 'Inconsolata', monospace;
-   font-size: 3em;
-   color: #14212f;
-   font-weight:normal;
-}
-
-h2 a {
-   text-decoration: underline wavy red 5%;
-}
-
-h2 a:hover {
-   text-decoration: underline solid green 5%;
-}
-
-
-h3 {
-   font-family: 'Inconsolata', monospace;
-   font-size: 2em;
-   color: #14212f;
-}
-
-h4 {
-   font-family: 'Karla', sans-serif;
-   font-size: 1.75em;
-   font-weight: bolder;
-   color: #14212f;
-}
-
-img {
-   width: 100%;
-}
-
-nav li {
-   display:list-item;
-   text-shadow: -1px 0 .01em skyblue, 1px 0 .01em skyblue, 0 -1px .01em white, 0 1px .01em white,-1px 0 white, 1px 0 white, 0 -1px white, 0 1px white;
-   font-weight: 600;
-   font-size: 1em;
-}
-
-nav li:hover {
-   font-size: 1.1em;
-   transition: 1s;
-   font-style: normal;
-}
-
-p {
-   font-size: 1.25em;
-   font-family: 'Karla', sans-serif;
-   line-height: 150%;
-}
-
-sub {
-   font-family: 'Inconsolata', monospace;
-}
 
 /*CLASSES SECTION ---*/
-.element {
-   border: solid black 1px;
-   margin-bottom: 1em;
-   background-color: white;
-   padding: 2em;
-   margin: 1em;
-}
-
-.flexing {
-/* flexbox/container for work on the home page */
-   display: flex;
-   align-items: baseline;
-   align-content: stretch;
-   flex-wrap: wrap;
-   text-align: center;
-}
-
-.flexing div a {
-   text-decoration: none;
-   width: 45%;
-}
-
-/* hiding code */
-.hide {
-    display: none;
-    position:absolute;
-    right: 25vw;
-}
-
-.show:hover + .hide {
-   display: flex;
-   color: black;
-   animation: wave .5s infinite linear alternate-reverse;
-}
-/* end hiding code */
 
 
-.my-work {
-   align-content: center;
-   padding-top: .5em;
-   border-top: solid black 1px;
-   width: 70%;
-   background-color: white;}
+/*--SCHMANCY STYLING (extra animations & stuff mostly for desktop)--*/
+/* ANIMATIONS: */
 
-.project-overview {
-/* team/roles/tools */
-   border-top: solid 1px lightgrey;
-   border-bottom: solid 1px lightgrey;
-   margin: 1em;
-   color: grey;
-
-}
-
-.project-img {
-   font-family: 'Inconsolata', monospace;
-   text-align: center;
-   margin: 1em;
-   padding: 1em;
-}
-
-.right {
-   right: 5vw;
-   top: 0;
-   text-align: right;
-}
