@@ -14,11 +14,11 @@
    }
 
    h1 {
-      font-size: 4em;
+      font-size: 3em;
    }
 
    h2 {
-      font-size: 3em;
+      font-size: 2em;
    }
 
    h3 {
@@ -57,9 +57,60 @@
 
 /*--BARE BONES STYLING (just enough to make site run)--*/
 /*HTML TAG SECTION ---*/
+a{
+   font: italic 500 1em/.75em 'IBM Plex Sans', sans-serif;
+   text-decoration: underline;
+   color: #4A7DFF
+}
+
+a:hover {
+   font: italic 500 1em/.75em 'IBM Plex Sans', sans-serif;
+   text-decoration: underline;
+   color: white;
+   background-color: #173C9D;
+}
+
+a:active {
+  font: italic 600 1em/.75em 'IBM Plex Sans', sans-serif;
+  color: #173C9D;
+  background-color: white;
+}
+
+html {
+   color: #3D3D3D;
+   background-color: #FFFBF6;
+   margin: 1em 3.125em 1em 3.125em;
+}
+
+h1 {
+   font: italic 300 3.25em/.5em 'IBM Plex Mono', monospace;
+   letter-spacing: -0.05em;
+}
+
+h2 {
+   font: italic 300 2.25em/.75em 'IBM Plex Mono', monospace;
+   letter-spacing: -0.05em;
+}
+
+h3 {
+   font: italic 300 1.75em/.75em 'IBM Plex Mono', monospace;
+   letter-spacing: -0.05em;
+}
+
+h4 {
+  font: bold 1.25em/.75em 'IBM Plex Sans', sans-serif;
+}
+
+p {
+   font: 1em/.75em 'IBM Plex Sans', sans-serif;
+}
+
 
 /*CLASSES SECTION ---*/
-
+.subheader {
+   font: italic 500 1em/.75em 'IBM Plex Sans', sans-serif;
+   color: #3D3D3D;
+}
 
 /*--SCHMANCY STYLING (extra animations & stuff mostly for desktop)--*/
 /* ANIMATIONS: */
